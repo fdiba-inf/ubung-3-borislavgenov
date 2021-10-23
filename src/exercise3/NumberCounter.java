@@ -8,9 +8,9 @@ public class NumberCounter {
         Scanner input = new Scanner(System.in);
 
         double a;
-        int posn = 0.0;
+        int posn = 0;
         double sum = 0.0;
-        int negn = 0.0;
+        int negn = 0;
         do {
             a = input.nextInt();
             if (a > 0) {
