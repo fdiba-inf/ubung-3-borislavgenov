@@ -22,7 +22,7 @@ public class NumberCounter {
             }
         } while (a != 0);
         System.out.println("Positive numbers: " + posn);
-        System.out.println("Negative numbers:" + negn);
+        System.out.println("Negative numbers: " + negn);
         System.out.println("Sum: " + sum);
         double aver = sum / (posn+negn);
         System.out.println("Average: " + aver);
